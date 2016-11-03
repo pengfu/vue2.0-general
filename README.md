@@ -1,6 +1,6 @@
 # vue2.0-confirm
 
-> A Confirm Box Component for Vue2.0
+> A Confirm Box Component for Vue2.0.  [Demo](https://pengfu.github.io/vue2.0-confirm/)
 
 ## Build Setup
 
