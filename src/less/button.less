@@ -1,0 +1,51 @@
+.transition(@transition) {
+  -webkit-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+
+.btn_a,
+.btn_b{
+  font-size:12px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid transparent;
+  &:hover{
+    opacity:.7;
+  }
+  &[disabled]{
+    background: #eff1f4;
+    border-color: #eff1f4;
+    color: #8e99b3;
+  }
+}
+.btn_a {
+  padding: 8px 30px;
+  border-radius: 100px;
+}
+.btn_b {
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+.bg_default {
+  background: #fff;
+  color: #8e99b3;
+  border-color: #e3e7ee;
+  &:hover {
+    background: #fafafe;
+  }
+}
+
+.btn-save {
+  background: #1f95e7;
+  border-color: #1f95e7;
+  color: #fff;
+  .transition(~"background .5s ease, border-color .5s ease,color .5s ease");
+}
+
+.bg_deep {
+  background: #8e99b3;
+  border-color: #8e99b3;
+  color: #fff;
+}
+

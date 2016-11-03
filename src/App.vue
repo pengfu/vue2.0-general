@@ -1,17 +1,30 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <button @click="openBox">Click me</button>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Confirm from './components/confirm/index'
 
 export default {
-  name: 'app',
+
   components: {
-    Hello
+
+  },
+  methods: {
+    openBox() {
+      Confirm({
+        message:'你确定不吃午饭吗？',
+        confirm:function () {
+            console.log('ok')
+        },
+        cancel:function () {
+            console.log('cancel')
+        }
+
+      })
+    }
   }
 }
 </script>
