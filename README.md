@@ -1,4 +1,4 @@
-# vue2.0-confirm
+# vue2.0-general
 
 > General Components for Vue2.0.  [Demo](https://pengfu.github.io/vue2.0-general/)
 
