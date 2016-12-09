@@ -1,6 +1,6 @@
 # vue2.0-confirm
 
-> A Confirm Box Component for Vue2.0.  [Demo](https://pengfu.github.io/vue2.0-confirm/)
+> General Components for Vue2.0.  [Demo](https://pengfu.github.io/vue2.0-general/)
 
 ## Build Setup
 
@@ -15,4 +15,8 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Confirm Box
+![alt text](https://cloud.githubusercontent.com/assets/7261281/21039596/f6adc652-be19-11e6-879c-bcf6059a8917.png "Confirm Box")
+
+## Pagination
+![alt text](https://cloud.githubusercontent.com/assets/7261281/21039648/55f26cee-be1a-11e6-8f2a-3b8c6a765883.png "Pagination")
